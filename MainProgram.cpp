@@ -132,14 +132,14 @@ public:
     // Two students are equal if they have the same id
     bool operator==(const Student& other) const {
         // YOUR CODE HERE
-        return this->id == other.id;
+        return id == other.id;
     }
 
     // TODO 5b: Less-than operator (<)
     // Compare by GPA (lower GPA = "less than")
     bool operator<(const Student& other) const {
         // YOUR CODE HERE
-        return this->gpa < other.gpa;
+        return gpa < other.gpa;
     }
 
     // TODO 5c: Stream insertion operator (<<)
